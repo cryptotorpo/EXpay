@@ -60,12 +60,12 @@ export default function Example() {
               <div className="flex items-center justify-center flex-1 sm:items-stretch sm:justify-between">
                 <div className="flex items-center flex-shrink-0">
                   <img
-                    className="block w-32 h-12 lg:hidden"
+                    className="block w-24 h-16 lg:hidden"
                     src="img/logo.png"
                     alt="Your Company"
                   />
                   <img
-                    className="hidden w-32 h-12 lg:block"
+                    className="hidden w-24 h-16 lg:block"
                     src="img/logo.png"
                     alt="Your Company"
                   />
