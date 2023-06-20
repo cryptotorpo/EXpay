@@ -1,35 +1,22 @@
-/*
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/aspect-ratio'),
-    ],
-  }
-  ```
-*/
+import { UserCircleIcon, ChatBubbleOvalLeftIcon } from '@heroicons/react/24/outline'
+
 const products = [
     {
       id: 1,
-      name: 'Basic Tee',
+      name: 'Henry Scott',
       href: '#',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
+      imageSrc: 'img/henry_scott.jpg',
       imageAlt: "Front of men's Basic Tee in black.",
-      price: '$35',
-      color: 'Black',
+      role: 'Lead Developer',
     },
     // More products...
   ]
   
   export default function Example() {
     return (
-      <div className="bg-white">
+      <div className="bg-white fadeInRight">
         <div className="max-w-2xl px-4 py-16 mx-auto sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
-          <h2 className="text-2xl font-bold tracking-tight text-gray-900">Customers also purchased</h2>
+          <h2 className="pb-16 text-2xl font-bold tracking-tight text-gray-900">Our Teams</h2>
   
           <div className="grid grid-cols-1 mt-6 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
             {products.map((product) => (
@@ -43,15 +30,19 @@ const products = [
                 </div>
                 <div className="flex justify-between mt-4">
                   <div>
-                    <h3 className="text-sm text-gray-700">
+                    <h3 className="text-xl font-bold text-gray-700">
                       <a href={product.href}>
                         <span aria-hidden="true" className="absolute inset-0" />
                         {product.name}
                       </a>
                     </h3>
-                    <p className="mt-1 text-sm text-gray-500">{product.color}</p>
+                    <p className="mt-1 italic text-gray-500 text-md">{product.role}</p>
                   </div>
-                  <p className="text-sm font-medium text-gray-900">{product.price}</p>
+                  <div className='flex flex-row items-center gap-3'>
+                    <UserCircleIcon className='w-8 h-8'/>
+                    <ChatBubbleOvalLeftIcon className='w-8 h-8' />
+                  </div>
+                  {/* <p className="font-medium text-gray-900 text-md">{product.role}</p> */}
                 </div>
               </div>
             ))}

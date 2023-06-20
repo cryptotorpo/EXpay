@@ -16,15 +16,15 @@ import { CalendarDaysIcon, HandRaisedIcon } from '@heroicons/react/24/outline'
 
 export default function Example() {
   return (
-    <div className="relative py-16 overflow-hidden bg-gray-900 isolate sm:py-24 lg:py-32">
+    <div className="relative py-16 overflow-hidden bg-gray-900 isolate sm:py-24 lg:py-32 fadeInUp">
       <div className="px-6 mx-auto max-w-7xl lg:px-8">
         <div className="grid max-w-2xl grid-cols-1 mx-auto gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2">
           <div className="max-w-xl lg:max-w-lg">
             <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Subscribe to our newsletter.</h2>
-            <p className="mt-4 text-lg leading-8 text-gray-300">
-              Nostrud amet eu ullamco nisi aute in ad minim nostrud adipisicing velit quis. Duis tempor incididunt
-              dolore.
-            </p>
+            <div className="flex flex-col mt-4 text-lg leading-8 text-gray-300">
+              <p>For further information, please reach out to us:</p>
+              <p>Email: bcampos@fintechexpress.org</p>
+            </div>
             <div className="flex max-w-md mt-6 gap-x-4">
               <label htmlFor="email-address" className="sr-only">
                 Email address
@@ -51,9 +51,9 @@ export default function Example() {
               <div className="p-2 rounded-md bg-white/5 ring-1 ring-white/10">
                 <CalendarDaysIcon className="w-6 h-6 text-white" aria-hidden="true" />
               </div>
-              <dt className="mt-4 font-semibold text-white">Weekly articles</dt>
+              <dt className="mt-4 font-semibold text-white">Working Time</dt>
               <dd className="mt-2 leading-7 text-gray-400">
-                Non laboris consequat cupidatat laborum magna. Eiusmod non irure cupidatat duis commodo amet.
+                Monday ~ Saturday, 9AM - 5PM ET
               </dd>
             </div>
             <div className="flex flex-col items-start">
@@ -62,7 +62,7 @@ export default function Example() {
               </div>
               <dt className="mt-4 font-semibold text-white">No spam</dt>
               <dd className="mt-2 leading-7 text-gray-400">
-                Officia excepteur ullamco ut sint duis proident non adipisicing. Voluptate incididunt anim.
+                Don't subscribe any unnecessary questions
               </dd>
             </div>
           </dl>

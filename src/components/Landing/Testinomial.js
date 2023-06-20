@@ -8,22 +8,21 @@ export default function Example() {
           <figure className="mt-10">
             <blockquote className="text-xl font-semibold leading-8 text-center text-gray-900 sm:text-2xl sm:leading-9">
               <p>
-                “Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias
-                molestiae. Numquam corrupti in laborum sed rerum et corporis.”
+                “At FinTech Express, our exceptional team of talented professionals comes together with a shared purpose: to revolutionize the logistics industry and deliver cutting-edge solutions that transform the way payments are conducted. ”
               </p>
             </blockquote>
             <figcaption className="mt-10">
               <img
                 className="w-10 h-10 mx-auto rounded-full"
-                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                src="img/henry_scott.jpg"
                 alt=""
               />
               <div className="flex items-center justify-center mt-4 space-x-3 text-base">
-                <div className="font-semibold text-gray-900">Judith Black</div>
+                <div className="font-semibold text-gray-900">Jose Gonzalez</div>
                 <svg viewBox="0 0 2 2" width={3} height={3} aria-hidden="true" className="fill-gray-900">
                   <circle cx={1} cy={1} r={1} />
                 </svg>
-                <div className="text-gray-600">CEO of Workcation</div>
+                <div className="text-gray-600">Co-Founder & CEO</div>
               </div>
             </figcaption>
           </figure>

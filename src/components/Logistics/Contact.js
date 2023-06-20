@@ -1,17 +1,3 @@
-/*
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
-*/
 import { useState } from 'react'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 import { Switch } from '@headlessui/react'
@@ -24,7 +10,7 @@ export default function Example() {
   const [agreed, setAgreed] = useState(false)
 
   return (
-    <div className="px-6 py-24 bg-white isolate sm:py-32 lg:px-8">
+    <div className="px-6 py-24 bg-white isolate sm:py-32 lg:px-8 fadeInUp">
       <div
         className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]"
         aria-hidden="true"
@@ -38,10 +24,7 @@ export default function Example() {
         />
       </div>
       <div className="max-w-2xl mx-auto text-center">
-        <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Contact sales</h2>
-        <p className="mt-2 text-lg leading-8 text-gray-600">
-          Aute magna irure deserunt veniam aliqua magna enim voluptate.
-        </p>
+        <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Cargo Logistics industry</h2>
       </div>
       <form action="#" method="POST" className="max-w-xl mx-auto mt-16 sm:mt-20">
         <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
@@ -181,7 +164,7 @@ export default function Example() {
             type="submit"
             className="block w-full rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
           >
-            Let's talk
+            Submit
           </button>
         </div>
       </form>

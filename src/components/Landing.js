@@ -21,9 +21,9 @@ function Landing () {
           <div className='relative overflow-hidden' style={{width: "100vw", height: "100vh"}}>
             <Slideshow />
             <div className='absolute w-1/2 text-5xl text-white bg-black bg-opacity-50 fadeInLeft top-1/3 left-1/4 _sm:text-4xl _sm:w-full _sm:left-0 _sm:top-1/3'>
-              <div className='font-bold'>WE OFFER QUALITY APARTMENT, TOWNHOUSE & DUPLEX RENTALS WITH AFFORDABLE MONTHLY RATE</div><br></br>
+              <div className='font-bold'>ExPAY: Revolutionizing Payment Logistics in the Cargo Transportation Industry</div><br></br>
               <span className='text-3xl mt-7 _sm:text-xl'>For More Information Call </span>
-              <span className='text-3xl text-yellow-200 mt-7 _sm:text-xl'>(618) 288‐3108</span>
+              <span className='text-3xl text-yellow-200 mt-7 _sm:text-xl'>(123) 456‐7890</span>
             </div>
           </div>
 
