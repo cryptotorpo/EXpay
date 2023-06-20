@@ -32,7 +32,7 @@ export default function Example() {
               className="grid grid-cols-1 gap-4 mt-8 text-sm leading-6 text-gray-600 sm:grid-cols-2 sm:gap-6"
             >
               {includedFeatures.map((feature) => (
-                <li key={feature} className="flex gap-x-3">
+                <li key={feature} className="flex gap-x-3">A
                   <CheckIcon className="flex-none w-5 h-6 text-indigo-600" aria-hidden="true" />
                   {feature}
                 </li>

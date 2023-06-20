@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 
 const navigation = [
   { name: 'Home', href: '#', current: true },
-  { name: 'Logistics ', href: '#', current: false },
+  { name: 'Survey', href: '#', current: false },
   { name: 'Roadmap', href: '#', current: false },
   { name: 'About Us', href: '#', current: false },
 ]
@@ -57,7 +57,7 @@ export default function Example() {
                   )}
                 </Disclosure.Button>
               </div>
-              <div className="flex items-center justify-center flex-1 sm:items-stretch sm:justify-between">
+              <div className="flex items-center justify-center flex-1 sm:justify-between">
                 <div className="flex items-center flex-shrink-0">
                   <img
                     className="block w-24 h-16 lg:hidden"
